@@ -1,0 +1,29 @@
+QPushButton {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+QPushButton:hover {
+    background-color: #0056b3;
+}
+QLabel {
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+#sidebar QPushButton:checked {
+    background-color: #1abc9c;
+}
+#contentArea {
+    background-color:rgb(76, 84, 92);
+}
+QLineEdit {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5 px;
+}
